@@ -3,12 +3,6 @@ import React from "react";
 export default function Blogs() {
     return (
         <div className="Blogs"
-      style={{
-        display: 'flex',
-        justifyContent: 'Right',
-        alignItems: 'Right',
-        height: '100vh'
-      }}
     >
       <h1>Welcome to Blogs</h1>
       <p>Today is 3/22/2022...</p>

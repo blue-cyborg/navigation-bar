@@ -6,9 +6,9 @@ import Home from './pages/Index';
 import About from './pages/About';
 import Events from './pages/Events';
 import AnnualReport from './pages/Annual';
-import Teams from './pages/team';
+import Teams from './pages/Team';
 import Blogs from './pages/Blogs';
-import SignUp from './pages/Signup';
+import SignUp from './pages/SignUp';
   
 function App() {
   return (
@@ -21,7 +21,7 @@ function App() {
         <Route path='/Annual' component={AnnualReport} />
         <Route path='/Team' component={Teams} />
         <Route path='/Blogs' component={Blogs} />
-        <Route path='/Signup' component={SignUp} />
+        <Route path='/SignUp' component={SignUp} />
       </Switch>
     </Router>
   );
