@@ -1,9 +1,10 @@
 import React from 'react';
 
-export default function signIn() {
+export default function Signin() {
     return (
-        <div>
-            <p>hello from sign in!</p>
-        </div>
+        <div className="Signin">
+          <h1>Signin</h1>
+          <p>More Numbers...Refinancing...%%%...</p>
+      </div>
     );
 }

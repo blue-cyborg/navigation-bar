@@ -34,10 +34,10 @@ const Navbar = () => {
             Sign Up
           </NavLink>
           {/* Second Nav */}
-          {/* <NavBtnLink to='/sign-in'>Sign In</NavBtnLink> */}
+          {/* <NavBtnLink to='/signin'>Sign In</NavBtnLink> */}
         </NavMenu>
         <NavBtn>
-          <NavBtnLink to='/signin'>Sign In</NavBtnLink>
+          <NavBtnLink to='/Signin' onClick>Sign In</NavBtnLink>
         </NavBtn>
       </Nav>
     </>
