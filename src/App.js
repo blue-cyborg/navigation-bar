@@ -2,26 +2,26 @@ import React from 'react';
 import './App.css';
 import Navbar from './components/Navbar';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import Home from './pages';
-import About from './pages/about';
-import Events from './pages/events';
-import AnnualReport from './pages/annual';
+import Home from './pages/Index';
+import About from './pages/About';
+import Events from './pages/Events';
+import AnnualReport from './pages/Annual';
 import Teams from './pages/team';
-import Blogs from './pages/blogs';
-import SignUp from './pages/signup';
+import Blogs from './pages/Blogs';
+import SignUp from './pages/Signup';
   
 function App() {
   return (
     <Router>
       <Navbar />
       <Switch>
-        <Route path='/' exact component={Home} />
-        <Route path='/about' component={About} />
-        <Route path='/events' component={Events} />
-        <Route path='/annual' component={AnnualReport} />
-        <Route path='/team' component={Teams} />
-        <Route path='/blogs' component={Blogs} />
-        <Route path='/sign-up' component={SignUp} />
+        <Route path='/Index' exact component={Home} />
+        <Route path='/About' component={About} />
+        <Route path='/Events' component={Events} />
+        <Route path='/Annual' component={AnnualReport} />
+        <Route path='/Team' component={Teams} />
+        <Route path='/Blogs' component={Blogs} />
+        <Route path='/Signup' component={SignUp} />
       </Switch>
     </Router>
   );
