@@ -5,7 +5,7 @@ export default function AnnualReport() {
         <div className="AnnualReport"
       >
           <h1>Annual Report</h1>
-          <p>Numbers...Refinancing...$$$...</p>
+          <p>Numbers...Refinancing...%%%...</p>
       </div>
     );
 }
