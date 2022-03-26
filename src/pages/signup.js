@@ -1,4 +1,5 @@
 import React from 'react';
+import Kermit from './Kermit';
   
 export default function SignUp() {
   return (
@@ -8,6 +9,8 @@ export default function SignUp() {
       <p>sign up for fun things and emails here!</p>
       <p>We want to send you emails about our sales and events</p>
       <p>Yay email!</p>
+      <Kermit />
     </div>
+    
   );
 };

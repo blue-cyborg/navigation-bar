@@ -1,4 +1,5 @@
 import React from 'react';
+import Superfriends from './Superfriends';
   
 export default function Teams() {
   return (
@@ -6,6 +7,8 @@ export default function Teams() {
     >
       <h1>This is Our Team</h1>
       <p>We do team work and like making events.</p>
+      
+      <Superfriends />
     </div>
   );
 };

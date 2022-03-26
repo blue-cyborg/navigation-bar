@@ -1,10 +1,10 @@
 import React from "react";
-import cool from "./images/Senor.jpg";
+import img1 from './images/Senor.jpg';
 
 export default function Cardgage() {
     return(
         <div>
-        <img src={cool} alt="A cool guy telling you about numbers" />
+        <img src={img1} alt="A cool guy telling you about numbers" />
         </div>
     );
 }
