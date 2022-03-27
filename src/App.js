@@ -9,6 +9,7 @@ import AnnualReport from './pages/Annual';
 import Teams from './pages/Team';
 import Blogs from './pages/Blogs';
 import SignUp from './pages/SignUp';
+import Login from './pages/Login';
   
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <Route path='/Team' component={Teams} />
         <Route path='/Blogs' component={Blogs} />
         <Route path='/SignUp' component={SignUp} />
+        <Route path='/Login' component={Login} />
       </Switch>
     </Router>
   );
