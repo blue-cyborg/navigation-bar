@@ -6,15 +6,15 @@ export default function Home() {
   return (
     
     <div>
-<section class="hero">
+<section className="hero">
 
-    <div class="hero-content">
+    <div className="hero-content">
     
-       <h1 class="hero-title">
+       <h1 className="hero-title">
             Welcome to My Navbar Test
        </h1>
          
-       <h2 class="hero-subtitle">
+       <h2 className="hero-subtitle">
             Navbars are rad! This is my hero section!
        </h2>
          

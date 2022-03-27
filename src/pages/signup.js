@@ -26,7 +26,7 @@ export default function SignUp() {
       <p>Yay email!</p>
       <form className="suForm mt-4" onSubmit={handleSubmit}>
       <input type="text" className="suField" placeholder="Enter your email" />
-      <input type="submit" ClassName="suSubmit" value="Enter" />
+      <input type="submit" className="suSubmit" value="Enter" />
     </form>
       </div>
       </div>
