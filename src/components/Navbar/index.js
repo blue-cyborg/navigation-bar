@@ -15,25 +15,25 @@ export default function Navbar() {
         <Bars />
   
         <NavMenu>
-          <NavLink to='/Index' activeStyle>
+          <NavLink to='/Index' >
             Home
           </NavLink>
-          <NavLink to='/About' activeStyle>
+          <NavLink to='/About' >
             About
           </NavLink>
-          <NavLink to='/Events' activeStyle>
+          <NavLink to='/Events' >
             Events
           </NavLink>
-          <NavLink to='/Annual' activeStyle>
+          <NavLink to='/Annual' >
             Annual Report
           </NavLink>
-          <NavLink to='/Team' activeStyle>
+          <NavLink to='/Team' >
             Teams
           </NavLink>
-          <NavLink to='/Blogs' activeStyle>
+          <NavLink to='/Blogs' >
             Blogs
           </NavLink>
-          <NavLink to='/SignUp' activeStyle>
+          <NavLink to='/SignUp' >
             Sign Up
           </NavLink>
           {/* Second Nav */}
