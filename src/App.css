@@ -1,35 +1,36 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
 h1 {
-  text-align: center;
+  padding: 25px;
 }
 
+h1,
+h2,
+h3 {
+  text-align: center;
+  font-family: "Paytone One", sans-serif;
+}
 p {
   text-align: center;
 }
 
 img {
   max-width: 500px;
+  display: block;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+section {
+  height: 65vh;
+}
+
+.suField {
+  width: 75%;
+}
+
+.suEnter {
+  width: 25%;
+}
+
+.jottings p {
+  text-align: left;
 }
