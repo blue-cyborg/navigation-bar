@@ -6,43 +6,45 @@ import {
   NavMenu,
   NavBtn,
   NavBtnLink,
-} from './NavbarElements';
+} from './NavbarElements'; 
   
-export default function Navbar() {
+const Navbar = () => {
   return (
     <>
       <Nav>
         <Bars />
   
         <NavMenu>
-          <NavLink to='/Index' >
+          <NavLink to='/Index' activeStyle>
             Home
           </NavLink>
-          <NavLink to='/About' >
+          <NavLink to='/About' activeStyle>
             About
           </NavLink>
-          <NavLink to='/Events' >
+          <NavLink to='/Events' activeStyle>
             Events
           </NavLink>
-          <NavLink to='/Annual' >
+          <NavLink to='/Annual' activeStyle>
             Annual Report
           </NavLink>
-          <NavLink to='/Team' >
+          <NavLink to='/Team' activeStyle>
             Teams
           </NavLink>
-          <NavLink to='/Blogs' >
+          <NavLink to='/Blogs' activeStyle>
             Blogs
           </NavLink>
-          <NavLink to='/SignUp' >
+          <NavLink to='/SignUp' activeStyle>
             Sign Up
           </NavLink>
           {/* Second Nav */}
-          {/* <NavBtnLink to='/signin'>Sign In</NavBtnLink> */}
+          {/* <NavBtnLink to='/sign-in'>Sign In</NavBtnLink> */}
         </NavMenu>
         <NavBtn>
-                <NavBtnLink to='/Login'>Sign In</NavBtnLink>
-            </NavBtn>
+          <NavBtnLink to='/Login'>Sign In</NavBtnLink>
+        </NavBtn>
       </Nav>
     </>
   );
-}
+};
+  
+export default Navbar;
