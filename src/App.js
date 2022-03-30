@@ -11,7 +11,8 @@ import Blogs from './pages/Blogs';
 import SignUp from './pages/SignUp';
 import Login from './pages/Login';
   
-function App() {
+export default function App() {
+
   return (
     <Router>
       <Navbar />
@@ -28,5 +29,5 @@ function App() {
     </Router>
   );
 }
+
   
-export default App;
