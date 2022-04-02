@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import Navbar from './components/Navbar';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import Home from './pages/Index';
+import Home from './pages/Home';
 import About from './pages/About';
 import Events from './pages/Events';
 import AnnualReport from './pages/Annual';
@@ -12,12 +12,11 @@ import SignUp from './pages/SignUp';
 import Login from './pages/Login';
   
 export default function App() {
-
   return (
     <Router>
       <Navbar />
       <Switch>
-        <Route path='/Index' exact component={Home} />
+        <Route path='/Home' exact component={Home} />
         <Route path='/About' component={About} />
         <Route path='/Events' component={Events} />
         <Route path='/Annual' component={AnnualReport} />
@@ -29,5 +28,4 @@ export default function App() {
     </Router>
   );
 }
-
   
