@@ -4,6 +4,7 @@ import Coding from "./Coding";
 
 export default function About() {
     return (
+        <div className="About"> 
         <div className="container">
           <h1>About</h1>
           <div className="row">
@@ -23,6 +24,7 @@ export default function About() {
                     </div>
                     </div>
                   <Footer />
+                  </div>
                   </div>
     );
 }
